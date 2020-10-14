@@ -1,4 +1,4 @@
-# Doppelganger
+# Doppelganger | Synthetic Data Generator
 
 # NUS ISS M.Tech. Intelligent Systems
 ## PRS Group Project  [Jun-Nov 2020] 
