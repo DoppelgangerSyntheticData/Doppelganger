@@ -9,10 +9,10 @@ Group 19
 
 Members
 --------
-- Anirban Kar Chaudhuri
-- Ankeit Taksh
-- Nirav Janak Parikh
-- Prashant Chaudhary
+Anirban Kar Chaudhuri  | Prashant Chaudhary  | Ankeit Taksh  |  Nirav Janak Parikh
+
+
+
 
 Areas covered (Broad Category - Machine Learning)
 -----------
