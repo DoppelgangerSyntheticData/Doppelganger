@@ -1,0 +1,24 @@
+Example of creating synthetic dataset
+https://www.python-course.eu/synthetical_test_data_with_python.php
+
+Math behind support vector machine
+https://www.youtube.com/watch?v=IEOgRGh7x4g 
+
+A very useful paper called 'Synthetic Data Vault' - overall proposal is close to what we disussed yesterday and has some good ideas on the Generator component.
+https://dai.lids.mit.edu/wp-content/uploads/2018/03/SDV.pdf
+
+Meanwhile, here is a intro article on synthetic data. It turns into a marketing doc, but the intro is good. 
+https://research.aimultiple.com/synthetic-data/
+
+Auto-encoders
+https://github.com/conan7882/adversarial-autoencoders
+
+Swarm Intelligence as semi supervised learning
+https://www.semanticscholar.org/paper/Swarm-Intelligence-in-Semi-supervised-Azab-Hefny/a57714f6df1f48773331d8509b6c44c2e5dfe370
+
+Swarm Intelligence
+https://dl.acm.org/doi/10.1145/3205455.3205596
+
+Neural Network play ground
+http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.52458&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
+
