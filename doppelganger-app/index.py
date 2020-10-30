@@ -189,7 +189,7 @@ page_1_layout = html.Div([
     dcc.Dropdown(
         id='page-1-dropdown',
         options=[{'label': i, 'value': i} for i in ['Data Buyer', 'Data Owner', 'Data Generator']],
-        value='Data Buyer'
+        value='Data Generator'
     ),
     html.Div(id='page-1-content'),
 ])
@@ -200,7 +200,7 @@ page_2_layout = html.Div([
     dcc.Dropdown(
         id='page-2-radios',
         options=[{'label': i, 'value': i} for i in ['Data Buyer', 'Data Owner', 'Data Generator']],
-        value='Data Buyer'
+        value='Data Generator'
     ),
     html.Div(id='page-2-content'),
 ])
@@ -359,7 +359,7 @@ pg2_table11 = generate_table(
     pd.DataFrame(
         {"": [
             html.H1("Dataset Introduction"),
-            html.Div(className="container", children=["Load and show MNIST images."
+            html.Div(className="container", children=[html.H3("Load and show MNIST images.")
                 , html.Br(),"The MNIST database contains 60,000 training images and 10,000 testing images. Half of the training set and half of the test set were taken from NIST's training dataset, while the other half of the training set and the other half of the test set were taken from NIST's testing dataset."
                 , html.Br()
                 , html.Img(src="/assets/cs2_comp_VAE_mnist.png"), html.Br()
@@ -376,12 +376,7 @@ pg2_table11 = generate_table(
 pg2_table12 = generate_table(
     pd.DataFrame(
         {"": [
-            html.H1("Variational Auto-Encoder")
-            , html.Div(className="container", children=[
-                "Variational Autoencoders (VAEs) can be used to visualize high-dimensional data in a meaningful, lower-dimensional space. In this kernel, we will go over some details about autoencoding and autoencoders, especially VAEs, before constructing and training a deep VAE on the MNIST data from the Digit Recognizer competition. Autoencoder predictions are the compressed representations of the digits themselves"
-                , html.Br(), html.Img(src="/assets/cs2_VAE.png"), html.Br()
-                ])
-            , html.H1("Model Construction")
+            html.H2("Variational Auto-Encoder - Model Construction")
             , html.Div(className="container",
                        children=["Model construction for VAE uses convolution layers in encoder and decoder."
                            , html.Br(), "VAE has three components - "
@@ -389,51 +384,53 @@ pg2_table12 = generate_table(
                                "An ENCODER that learns the parameters (mean and variance) of the underlying latent distribution")
                            , html.Li("A means of SAMPLING from that distribution")
                            , html.Li("A DECODER that can generate a new image from the sampled distribution."),
-                                 html.Br(), html.Img(src="/assets/cs2_comp_VAE_train.png"), html.Br()
                                  ])
             , html.H1("Model Training")
             , pg2_tab1
+            , html.H3("Training Loss")
+            , html.Img(src="/assets/cs2_comp_VAE_train.png")
         ],
         }, columns=[""]))
+
+df_cs2_val_1 = pd.read_csv("data/cs2_valid_class_report_1.csv")
+df_cs2_val_2 = pd.read_csv("data/cs2_valid_class_report_2.csv")
 
 pg2_table13 = generate_table(
     pd.DataFrame(
         {"": [html.H1("Validator Performance")
-            , html.H3("Confusion Matrix For Validator Predictions ")
-            , html.Img(src="/assets/cs2_comp_CM.png")
-            , html.H4("Reconstructing Digits: Autoencoder predictions are the compressed representations of the digits themselves")
+            , html.H4("Validating reconstructed Digits: Autoencoder predictions are the compressed representations of the real digits themselves")
             , html.Div(className="container", children=[
                 html.Img(src="/assets/cs2_comp_VAE_compressed.png")
                 , html.H4("Display a 2D manifold of the digits")
                 , html.Br(), html.Img(src="/assets/cs2_comp_VAE_2.png"), html.Br()
             ])
+            , html.H3("Confusion Matrix For Validator Predictions ")
+            , html.Img(src="/assets/cs2_comp_CM.png")
+            , html.H3(" Validator Classification Report ")
+            , generate_table(df_cs2_val_1)
+            , html.H4("Summary")
+            , generate_table(df_cs2_val_2)
               ],
          }, columns=[""]))
 
 df_cs2_eval_1 = pd.read_csv("data/cs2_eval_class_report_1.csv")
 df_cs2_eval_2 = pd.read_csv("data/cs2_eval_class_report_2.csv")
-df_cs2_val_1 = pd.read_csv("data/cs2_valid_class_report_1.csv")
-df_cs2_val_2 = pd.read_csv("data/cs2_valid_class_report_2.csv")
 
 pg2_table2 = generate_table(
     pd.DataFrame(
         {"": [
             html.H1("Evaluator Performance")
             , html.Div([
-                  html.H3(" Confusion Matrix For Evaluator Predictions ")
-                , html.Br(), html.Img(src="/assets/cs2_comp_CM_Eval.png"), html.Br()
+                  html.H2("Comparing Real vs Synthetic Data Results")
+                , html.Span(" Train another CNN using the synthetic data to predict the test (real) data")
+                , html.Hr()
+                , html.H3(" Confusion Matrix For Evaluator Predictions ")
+                , html.Br(), html.Img(src="/assets/cs2_comp_CM_Eval.png")
 
-                , html.H2("Comparing Real vs Synthetic Data Results")
-                , html.H3("Classification Reports")
-                , html.H3(" Validator Classification Report ")
-                , generate_table(df_cs2_val_1)
-                , html.H4("Summary")
-                , generate_table(df_cs2_val_2)
-                , html.H3(" Evaluator Classification Report ")
-                , generate_table(df_cs2_eval_1)
-                , html.H4("Summary")
-                , generate_table(df_cs2_eval_2)
-
+                #, html.H3(" Evaluator Classification Report ")
+                #, generate_table(df_cs2_eval_1)
+                #, html.H4("Summary")
+                #, generate_table(df_cs2_eval_2)
             ])
         ],
         }, columns=[""]))
