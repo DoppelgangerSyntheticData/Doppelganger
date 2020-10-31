@@ -402,15 +402,18 @@ pg2_table13 = generate_table(
             , html.Div(className="container", children=[
                 html.Img(src="/assets/cs2_comp_VAE_compressed.png")
                 , html.H4("Display a 2D manifold of the digits")
-                , html.Br(), html.Img(src="/assets/cs2_comp_VAE_2.png"), html.Br()
+                , html.Br(), html.Img(src="/assets/cs2_comp_VAE_2.png")
             ])
-            , html.H3("Confusion Matrix For Validator Predictions ")
+            , html.H4("CNN Validator - Loss and Accuracy")
+            , html.Img(src="/assets/cs2_comp_Acc1.png")
+            , html.H3("Confusion Matrix For Validator Predictions")
             , html.Img(src="/assets/cs2_comp_CM.png")
-            , html.H3(" Validator Classification Report ")
-            , generate_table(df_cs2_val_1)
-            , html.H4("Summary")
-            , generate_table(df_cs2_val_2)
-              ],
+            , html.Div(className="container", children=[
+                  html.H3("Validator Classification Report")
+                , generate_table(df_cs2_val_1)
+                , generate_table(df_cs2_val_2)
+            ])
+          ],
          }, columns=[""]))
 
 df_cs2_eval_1 = pd.read_csv("data/cs2_eval_class_report_1.csv")
@@ -424,6 +427,8 @@ pg2_table2 = generate_table(
                   html.H2("Comparing Real vs Synthetic Data Results")
                 , html.Span(" Train another CNN using the synthetic data to predict the test (real) data")
                 , html.Hr()
+                , html.H4("CNN Evaluator - Loss and Accuracy")
+                , html.Br(), html.Img(src="/assets/cs2_comp_CNN_Acc1.png"), html.Br()
                 , html.H3(" Confusion Matrix For Evaluator Predictions ")
                 , html.Br(), html.Img(src="/assets/cs2_comp_CM_Eval.png")
 
@@ -440,7 +445,7 @@ pg1_tableSummary = generate_table(
         {"": [
             html.H1("Download Options")
             , html.Button(
-                children=[html.A("Download Synthetic Data", href="/data/x_train_transformed.npz", target="_blank")
+                children=[html.A("Download Synthetic Data", href="/data/life_expectancy_data_synthetic_data.csv", target="_blank")
                     , html.H1("")
                     , html.H1("Summary")
                     , html.Div(children=[
@@ -461,8 +466,7 @@ pg2_tableSummary = generate_table(
     pd.DataFrame(
         {"": [html.H1("Download Options")
             , html.Button(
-                children=[html.A("Download Synthetic Data", href="/data/x_train_transformed.npz", target="_blank")])
-            , html.Button(children=[html.A("Download VAE Model", href="/data/vae_mnist.h5", target="_blank")])
+                children=[html.A("Download Synthetic Data", href="/data/mnist_synthetic_data.npz", target="_blank")])
             , html.H1("Summary")
             , html.Div(children=[
                 "Doppelgänger has generated synthetic images using Variational Auto-Encoder on the real data."
@@ -481,7 +485,7 @@ pg2_tableSummary = generate_table(
               [dash.dependencies.Input('page-1-dropdown', 'value')])
 def page_1_dropdown(value):
     return dcc.Tabs(id="tabs", children=[
-        dcc.Tab(label='Pre-processing the Real data', children=[pg1_tab1]),
+        dcc.Tab(label='Review the Real Data', children=[pg1_tab1]),
         dcc.Tab(label='GENERATOR: Creating Synthetic Data',
                 children=[html.Div(className="container", children=[pg1_tab2])]),
         dcc.Tab(label='VALIDATOR: Real vs Synthetic Data',
