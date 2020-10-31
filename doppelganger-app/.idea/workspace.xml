@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d7c797d-6630-4e55-97fb-78ae9a8eae2d" name="Default Changelist" comment="updated">
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/Stocks/aapl.us.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/Stocks/desktop.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/Stocks/fb.us.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/Stocks/msft.us.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/Stocks/tsla.us.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/assets/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/dash-app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/dash-app2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/dash-app3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/dash-app4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/dash-app5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/dash-app6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/dash-app7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/data/SalaryData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/data/StartupsData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/data/dataset_Facebook.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/data/life_expectancy_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/data/stock_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/data/tickers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/dbm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/doppelganger.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/homepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/ipynb/SimpleRegression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/ipynb/SimpleRegressionPersistence.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/modelling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/navbar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/py/SimpleLinearRegressionAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/runtime.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/templates/lifeExpectancy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/requirements_bk1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doppelganger-app-interface/requirements_bk2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doppelganger-app-interface/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/../doppelganger-app-interface/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doppelganger-app-interface/doppelganger-app-interface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doppelganger-app-interface/doppelganger-app-interface.ipr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doppelganger-app-interface/doppelganger-app-interface.iws" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doppelganger-app-interface/project/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doppelganger-app-interface/project/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doppelganger-app-interface/project/templates/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doppelganger-app-interface/project/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../doppelganger-app-interface/project/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doppelganger-app-interface/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../doppelganger-app-interface/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/vae_mnist.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/x_test_transformed.npz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/x_train_transformed.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="438" column="25" lean-forward="true" selection-start-line="438" selection-start-column="25" selection-end-line="438" selection-end-column="25" />
+            <state relative-caret-position="61">
+              <caret line="476" column="14" lean-forward="true" selection-start-line="476" selection-start-column="14" selection-end-line="476" selection-end-column="14" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -73,13 +24,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/cs2_comp_Acc1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/cs2_comp_CNN_Acc1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>app.</find>
-      <find>downloa</find>
-      <find>overl</find>
       <find>Plot Display Mode</find>
       <find>data valid</find>
       <find>pg2_table2</find>
@@ -107,6 +65,9 @@
       <find>Comparing Evaluator</find>
       <find>recon</find>
       <find>Data Validator &amp; Evaluator Outcomes</find>
+      <find>vali</find>
+      <find>Review</find>
+      <find>download sy</find>
     </findStrings>
     <replaceStrings>
       <replace>app</replace>
@@ -137,18 +98,6 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/doppelganger-app.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
@@ -161,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,32 +123,28 @@
               <item name="doppelganger-app" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="doppelganger-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doppelganger-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bkup" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\simpl\Documents\GitHub\mtech_sem2_group_prj\doppelganger-app\bkup" />
+      <recent name="C:\Users\simpl\Documents\GitHub\mtech_sem2_group_prj\doppelganger-app" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\simpl\Documents\GitHub\Doppelganger\doppelganger-app\data" />
       <recent name="C:\Users\simpl\Documents\GitHub\mtech_sem2_group_prj\doppelganger-app\bkup" />
       <recent name="C:\Users\simpl\Documents\GitHub\mtech_sem2_group_prj\doppelganger-app" />
       <recent name="C:\Users\simpl\Documents\GitHub\mtech_sem2_group_prj\doppelganger-app\assets" />
       <recent name="C:\Users\simpl\Documents\GitHub\mtech_sem2_group_prj\doppelganger-app\data" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\simpl\Documents\GitHub\mtech_sem2_group_prj\doppelganger-app\bkup" />
-      <recent name="C:\Users\simpl\Documents\GitHub\mtech_sem2_group_prj\doppelganger-app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -361,18 +307,32 @@
       <option name="project" value="LOCAL" />
       <updated>1604064563790</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated">
+      <created>1604119578135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604119578135</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated">
+      <created>1604119763290</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604119763290</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991274" visible="true" weight="0.18835893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991274" visible="true" weight="0.25626516" />
       <window_info id="Structure" order="1" sideWeight="0.5008726" side_tool="true" weight="0.2271625" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.68586385" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39965096" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5113438" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,18 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cs1_comp_3stages.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cs1_comp_RF.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cs1_comp_RFvsXGB.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cs1_comp_XGB.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -513,29 +461,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_Acc1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_Acc2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_VAE_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_VAE_2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bkup/index_bk10.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_CM.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_CNN_Acc1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_CM_Eval.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/cs2_comp_VAE_train.png">
       <provider selected="true" editor-type-id="images" />
@@ -564,15 +491,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_comp_3stages.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_comp_RF.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_comp_RFvsXGB.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_comp_XGB.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_data_real.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_data_synth.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_datapreprocess_box.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_datapreprocess_corr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_datapreprocess_corr_synth.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_datapreprocess_lebyyear.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_pca1_7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_pca_data1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_pca_data2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs1_ppt.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_CM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_CM_Eval.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_VAE_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_VAE_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_VAE_compressed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_VAE_mnist.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_Acc2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="438" column="25" lean-forward="true" selection-start-line="438" selection-start-column="25" selection-end-line="438" selection-end-column="25" />
+        <state relative-caret-position="61">
+          <caret line="476" column="14" lean-forward="true" selection-start-line="476" selection-start-column="14" selection-end-line="476" selection-end-column="14" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_Acc1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cs2_comp_CNN_Acc1.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
