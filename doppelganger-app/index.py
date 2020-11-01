@@ -10,7 +10,7 @@ from dash.dependencies import Input, Output
 import os
 import flask
 
-from demo_utils import demo_callbacks, demo_explanation
+from app_utils import demo_callbacks, demo_explanation
 
 global product_df
 global dict_products
@@ -18,7 +18,6 @@ global dict_products
 ########################### Image model ####################################
 DATA_PATH = pathlib.Path(__file__).parent.joinpath("data").resolve()
 LOGFILE = "models/run_log.csv"
-demo_mode = True
 
 
 def div_graph(name):
@@ -132,6 +131,7 @@ page1Name = "Numeric Data Regression Analysis (WHO Dataset)"
 page2Name = "Image Data Classification Analysis (MNIST Dataset)"
 page1Url = "/" + page1Name.replace(" ", "-")
 page2Url = "/" + page2Name.replace(" ", "-")
+demo_mode = True
 
 
 def generate_table(dataframe, max_rows=10):
