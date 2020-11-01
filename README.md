@@ -25,7 +25,6 @@ Areas covered (Broad Category - Machine Learning)
 4) Deep Learning
 5) Hybrid Machine Learning
 6) Ensemble Approach
-7) Intelligent Sensing
  
  
  Google Drive location
