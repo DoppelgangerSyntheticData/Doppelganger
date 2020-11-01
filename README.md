@@ -12,7 +12,10 @@ Members
 Anirban Kar Chaudhuri  | Prashant Chaudhary  | Ankeit Taksh  |  Nirav Janak Parikh
 
 
-
+Video Presentation Links
+--------
+1) Marketing video (~2 min)- https://www.youtube.com/watch?v=qFluQ54aFE4
+2) Presentation video (~20 min) - https://www.youtube.com/watch?v=qFluQ54aFE4
 
 Areas covered (Broad Category - Machine Learning)
 -----------
@@ -35,6 +38,5 @@ Areas covered (Broad Category - Machine Learning)
  
  Repos
  ---------------
- 1) Old Repo (Prashant C)  - https://github.com/prashgithub/mtech_sem2_group_prj
+ 1) Project Alternate Repo (Prashant C)  - https://github.com/prashgithub/mtech_sem2_group_prj
  2) Anirban's Repo - https://github.com/Anirban6393/Anirban-Projects
- 3) 
