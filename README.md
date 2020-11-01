@@ -17,6 +17,7 @@ Video Presentation Links
 1) Presentation video (~20 min) - https://www.youtube.com/watch?v=eGlMZoRyI1w
 2) Marketing video (~2 min)- https://www.youtube.com/watch?v=qFluQ54aFE4
 
+
 Areas covered (Broad Category - Machine Learning / Deep Learning)
 -----------
 1) Unsupervised Learning
