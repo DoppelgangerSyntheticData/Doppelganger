@@ -14,18 +14,16 @@ Anirban Kar Chaudhuri  | Prashant Chaudhary  | Ankeit Taksh  |  Nirav Janak Pari
 
 Video Presentation Links
 --------
-1) Marketing video (~2 min)- https://www.youtube.com/watch?v=qFluQ54aFE4
-2) Presentation video (~20 min) - https://www.youtube.com/watch?v=qFluQ54aFE4
+1) Presentation video (~20 min) - https://www.youtube.com/watch?v=eGlMZoRyI1w
+2) Marketing video (~2 min)- https://www.youtube.com/watch?v=qFluQ54aFE4
 
-Areas covered (Broad Category - Machine Learning)
+Areas covered (Broad Category - Machine Learning / Deep Learning)
 -----------
-1) Supervised Learning
-2) Unsupervised Learning
-3) Semi-supervised Learning
-4) Deep Learning
-5) Hybrid Machine Learning
-6) Ensemble Approach
- 
+1) Unsupervised Learning
+2) Semi-supervised Learning
+3) Supervised Learning
+4) Hybrid Machine Learning
+5) Ensemble Approach
  
  Google Drive location
  ---------------------
